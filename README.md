@@ -30,10 +30,14 @@ The product is defined as
 
 <!-- <equation class="equation" label="eq:product" align="center" raw="p = \prod_{i=0}^{n-1} x_i" alt="Equation for the product."> -->
 
-<div class="equation" align="center" data-raw-text="p = \prod_{i=0}^{n-1} x_i" data-equation="eq:product">
+```math
+p = \prod_{i=0}^{n-1} x_i
+```
+
+<!-- <div class="equation" align="center" data-raw-text="p = \prod_{i=0}^{n-1} x_i" data-equation="eq:product">
     <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@ae1331d17d505898a27e695fc60144d786627384/lib/node_modules/@stdlib/stats/incr/prod/docs/img/equation_product.svg" alt="Equation for the product.">
     <br>
-</div>
+</div> -->
 
 <!-- </equation> -->
 
@@ -258,7 +262,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 -->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://gitter.im/stdlib-js/stdlib/
+[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
