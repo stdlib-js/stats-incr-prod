@@ -63,6 +63,11 @@ p = \prod_{i=0}^{n-1} x_i
 ## Usage
 
 ```javascript
+import incrprod from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-prod@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-incr-prod/tags). For example,
+
+```javascript
 import incrprod from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-prod@v0.2.1-deno/mod.js';
 ```
 
@@ -167,7 +172,7 @@ prod = accumulator( z );
 
 ```javascript
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
-import incrprod from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-prod@v0.2.1-deno/mod.js';
+import incrprod from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-prod@deno/mod.js';
 
 var accumulator;
 var v;
