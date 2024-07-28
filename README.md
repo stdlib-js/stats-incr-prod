@@ -63,6 +63,11 @@ p = \prod_{i=0}^{n-1} x_i
 ## Usage
 
 ```javascript
+import incrprod from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-prod@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-incr-prod/tags). For example,
+
+```javascript
 import incrprod from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-prod@v0.2.2-esm/index.mjs';
 ```
 
@@ -172,7 +177,7 @@ prod = accumulator( z );
 <script type="module">
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import incrprod from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-prod@v0.2.2-esm/index.mjs';
+import incrprod from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-prod@esm/index.mjs';
 
 var accumulator;
 var v;
