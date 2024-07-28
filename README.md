@@ -63,7 +63,7 @@ p = \prod_{i=0}^{n-1} x_i
 ## Usage
 
 ```javascript
-import incrprod from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-prod@esm/index.mjs';
+import incrprod from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-prod@v0.2.2-esm/index.mjs';
 ```
 
 #### incrprod()
@@ -172,7 +172,7 @@ prod = accumulator( z );
 <script type="module">
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import incrprod from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-prod@esm/index.mjs';
+import incrprod from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-prod@v0.2.2-esm/index.mjs';
 
 var accumulator;
 var v;
