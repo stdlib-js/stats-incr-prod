@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/stats-incr-prod",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Compute a product incrementally.",
   "license": "Apache-2.0",
   "author": {
@@ -37,22 +37,22 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/math-base-special-frexp": "^0.2.3",
-    "@stdlib/math-base-special-ldexp": "^0.2.3",
+    "@stdlib/math-base-special-frexp": "^0.2.4",
+    "@stdlib/math-base-special-ldexp": "^0.2.4",
     "@stdlib/types": "^0.4.3"
   },
   "devDependencies": {
     "@stdlib/array-zeros": "^0.2.2",
-    "@stdlib/assert-is-nan": "^0.2.2",
-    "@stdlib/constants-float64-eps": "^0.2.2",
-    "@stdlib/constants-float64-ninf": "^0.2.2",
-    "@stdlib/constants-float64-pinf": "^0.2.2",
-    "@stdlib/math-base-assert-is-even": "^0.2.4",
-    "@stdlib/math-base-assert-is-negative-zero": "^0.2.2",
-    "@stdlib/math-base-assert-is-positive-zero": "^0.2.2",
-    "@stdlib/math-base-special-abs": "^0.2.2",
+    "@stdlib/assert-is-nan": "^0.2.3",
+    "@stdlib/constants-float64-eps": "^0.2.3",
+    "@stdlib/constants-float64-ninf": "^0.2.3",
+    "@stdlib/constants-float64-pinf": "^0.2.3",
+    "@stdlib/math-base-assert-is-even": "^0.2.5",
+    "@stdlib/math-base-assert-is-negative-zero": "^0.2.3",
+    "@stdlib/math-base-assert-is-positive-zero": "^0.2.3",
+    "@stdlib/math-base-special-abs": "^0.2.3",
     "@stdlib/random-base-normal": "^0.2.1",
-    "@stdlib/random-base-randu": "^0.2.1",
+    "@stdlib/random-base-randu": "^0.2.2",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
