@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-14)
+## Unreleased (2026-09-21)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`a5253c9`](https://github.com/stdlib-js/stdlib/commit/a5253c99971ee6aad8f28d00803cb33489880bb5) - **test:** migrate `stats/incr/prod` to ULP-based assertions [(#15337)](https://github.com/stdlib-js/stdlib/pull/15337) _(by Athan Reines)_
 -   [`70d8d85`](https://github.com/stdlib-js/stdlib/commit/70d8d851663c185a0217b37e352e473aae92d81a) - **chore:** clean-up [(#13675)](https://github.com/stdlib-js/stdlib/pull/13675) _(by Philipp Burckhardt)_
 -   [`a07ad1c`](https://github.com/stdlib-js/stdlib/commit/a07ad1c13b9d2428b8897f47c6c78c6bfb0a235d) - **bench:** refactor to use string interpolation in `stats/incr` [(#11394)](https://github.com/stdlib-js/stdlib/pull/11394) _(by Karan Anand)_
 
@@ -25,8 +26,9 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
+-   Athan Reines
 -   Karan Anand
 -   Philipp Burckhardt
 
